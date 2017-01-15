@@ -1,0 +1,16 @@
+import com.sun.org.apache.xalan.internal.xsltc.cmdline.Compile
+
+// android-webview/build.gradle
+
+// this is an Android application that builds the Chromium AndroidWebview apk
+
+dependencies {
+  compile fileTree(dir: "${buildDir}/native/", include: "*.jar")
+  compile project(':chromium:content')
+  compile project(':chromium:components')
+  compile project(':chromium:media')
+}
+
+tasks.withType(com.sun.org.apache.xalan.internal.xsltc.cmdline.Compile) {
+  compileTask -> compileTask.dependsOn(copyNativeLibsToJar)
+}

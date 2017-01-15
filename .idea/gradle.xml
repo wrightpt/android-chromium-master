@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/chromium" />
+            <option value="$PROJECT_DIR$/chromium/android-webview" />
+            <option value="$PROJECT_DIR$/chromium/base" />
+            <option value="$PROJECT_DIR$/chromium/cacheinvalidation" />
+            <option value="$PROJECT_DIR$/chromium/chrome" />
+            <option value="$PROJECT_DIR$/chromium/components" />
+            <option value="$PROJECT_DIR$/chromium/content" />
+            <option value="$PROJECT_DIR$/chromium/content-shell" />
+            <option value="$PROJECT_DIR$/chromium/eyesfree" />
+            <option value="$PROJECT_DIR$/chromium/media" />
+            <option value="$PROJECT_DIR$/chromium/net" />
+            <option value="$PROJECT_DIR$/chromium/protobuf" />
+            <option value="$PROJECT_DIR$/chromium/sync" />
+            <option value="$PROJECT_DIR$/chromium/testshell" />
+            <option value="$PROJECT_DIR$/chromium/ui" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

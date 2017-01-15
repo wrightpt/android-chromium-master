@@ -1,0 +1,17 @@
+include ':chromium:base',
+  ':chromium:cacheinvalidation',
+  ':chromium:chrome',
+  ':chromium:components',
+  ':chromium:content',
+
+  ':chromium:eyesfree',
+  ':chromium:media',
+  ':chromium:net',
+  ':chromium:protobuf',
+  ':chromium:sync',
+        ':chromium:content-shell',
+        ':chromium:android-webview',
+  ':chromium:ui',
+        ':chromium:testshell'
+
+
